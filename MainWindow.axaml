@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="lab4.MainWindow"
+        Title="lab4" Height="600" Width="725">
+    <Border BorderBrush="White" BorderThickness="2">
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" Margin="30,50,30,50">
+                <RadioButton GroupName="degree" Content="90°"  FontSize="18" Margin="20,0,0,0"/>
+                <RadioButton GroupName="degree" Content="180°" FontSize="18" Margin="20,0,0,0"/>
+                <RadioButton GroupName="degree" Content="270°" FontSize="18" Margin="20,0,0,10"/>
+                <Button Content="Rotate" Height="60" Width="155" Margin="15,5,25,5" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Content="Invert Colours" Height="60" Width="155" Margin="15,5,25,5" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Content="Upside Down" Height="60" Width="155" Margin="15,5,25,5" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Content="Only Green" Height="60" Width="155" Margin="15,5,25,5" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Click="load" Content="Load" Height="60" Width="155" Margin="15,5,25,5" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            </StackPanel>
+            <Border Height="500" Width="400" BorderBrush="White" BorderThickness="1">
+                <Image Name="image" Source=""/>
+            </Border>
+        </StackPanel>
+    </Border>
+</Window>
