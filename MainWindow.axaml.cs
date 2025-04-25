@@ -50,12 +50,13 @@ public partial class MainWindow : Window
         {
             using (BmpPixelSnoop snoop = new(bitmap))
             {
+                Color orgCol, invCol;
                 for (var i = 0; i < bitmap.PixelSize.Height; i++)
                 {
                     for (var j = 0; j < bitmap.PixelSize.Width; j++)
                     {
-                        var orgCol = snoop.GetPixel(i, j);
-                        var invCol = Color.FromArgb(orgCol.A, (byte)(255 - orgCol.R), (byte)(255 - orgCol.G), (byte)(255 - orgCol.B));
+                        orgCol = snoop.GetPixel(i, j);
+                        invCol = Color.FromArgb(orgCol.A, (byte)(255 - orgCol.R), (byte)(255 - orgCol.G), (byte)(255 - orgCol.B));
                         snoop.SetPixel(i ,j ,invCol);
                     }
                 }
