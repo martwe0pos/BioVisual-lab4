@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/comus/RiderProjects/BioVisual/lab4/lab4.csproj": {}
+    "/home/comus/RiderProjects/BioVisual/lab4.1/BioVisual-lab4/lab4.csproj": {}
   },
   "projects": {
-    "/home/comus/RiderProjects/BioVisual/lab4/lab4.csproj": {
+    "/home/comus/RiderProjects/BioVisual/lab4.1/BioVisual-lab4/lab4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/comus/RiderProjects/BioVisual/lab4/lab4.csproj",
+        "projectUniqueName": "/home/comus/RiderProjects/BioVisual/lab4.1/BioVisual-lab4/lab4.csproj",
         "projectName": "lab4",
-        "projectPath": "/home/comus/RiderProjects/BioVisual/lab4/lab4.csproj",
+        "projectPath": "/home/comus/RiderProjects/BioVisual/lab4.1/BioVisual-lab4/lab4.csproj",
         "packagesPath": "/home/comus/.nuget/packages/",
-        "outputPath": "/home/comus/RiderProjects/BioVisual/lab4/obj/",
+        "outputPath": "/home/comus/RiderProjects/BioVisual/lab4.1/BioVisual-lab4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/comus/.nuget/NuGet/NuGet.Config"
@@ -63,6 +63,10 @@
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.2.1, )"
+            },
+            "AvaloniaPixelSnoop": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
