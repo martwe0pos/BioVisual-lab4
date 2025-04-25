@@ -65,3 +65,4 @@
 /home/comus/RiderProjects/BioVisual/lab4/obj/Debug/net9.0/lab4.genruntimeconfig.cache
 /home/comus/RiderProjects/BioVisual/lab4/obj/Debug/net9.0/ref/lab4.dll
 /home/comus/RiderProjects/BioVisual/lab4/obj/Debug/net9.0/lab4.sourcelink.json
+/home/comus/RiderProjects/BioVisual/lab4/bin/Debug/net9.0/AvaloniaPixelSnoop.dll

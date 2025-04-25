@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "htqcbMBEbQo=",
+  "dgSpecHash": "/hDQZtcKDVs=",
   "success": true,
   "projectFilePath": "/home/comus/RiderProjects/BioVisual/lab4/lab4.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "/home/comus/.nuget/packages/avalonia.themes.simple/11.2.1/avalonia.themes.simple.11.2.1.nupkg.sha512",
     "/home/comus/.nuget/packages/avalonia.win32/11.2.1/avalonia.win32.11.2.1.nupkg.sha512",
     "/home/comus/.nuget/packages/avalonia.x11/11.2.1/avalonia.x11.11.2.1.nupkg.sha512",
+    "/home/comus/.nuget/packages/avaloniapixelsnoop/1.0.0/avaloniapixelsnoop.1.0.0.nupkg.sha512",
     "/home/comus/.nuget/packages/harfbuzzsharp/7.3.0.2/harfbuzzsharp.7.3.0.2.nupkg.sha512",
     "/home/comus/.nuget/packages/harfbuzzsharp.nativeassets.linux/7.3.0.2/harfbuzzsharp.nativeassets.linux.7.3.0.2.nupkg.sha512",
     "/home/comus/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.2/harfbuzzsharp.nativeassets.macos.7.3.0.2.nupkg.sha512",

@@ -17,13 +17,13 @@
                     <RadioButton Checked="degrees" GroupName="degree" Content="270°" Tag="270" FontSize="18" Margin="25,0,0,15"/>
                 </StackPanel>
                 <Button Click="rotate" Content="Rotate" Height="60" Width="155" Margin="15,5,25,7" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Button Content="Invert Colours" Height="60" Width="155" Margin="15,5,25,7" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-                <Button Content="Upside Down" Height="60" Width="155" Margin="15,5,25,7" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Click="invert" Content="Invert Colours" Height="60" Width="155" Margin="15,5,25,7" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Click="upside" Content="Upside Down" Height="60" Width="155" Margin="15,5,25,7" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Button Content="Only Green" Height="60" Width="155" Margin="15,5,25,7" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Button Click="load" Content="Load" Height="60" Width="155" Margin="15,5,25,7" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
             <Border Height="500" Width="400" BorderBrush="White" BorderThickness="1">
-                <Image Name="image" Source="" RenderTransform=""/>
+                <Image x:Name="img" Source="" RenderTransform=""/>
             </Border>
         </StackPanel>
     </Border>
